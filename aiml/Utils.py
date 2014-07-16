@@ -1,14 +1,13 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from LangSupport import splitChinese
 
-"""This file contains assorted general utility functions used by other
+"""
+This file contains assorted general utility functions used by other
 modules in the PyAIML package.
-
 """
 
-# TODO: andelf, add chinese sentence support
+
 def sentences(s):
     """Split the string s into a list of sentences."""
     try: s+""
@@ -36,4 +35,6 @@ def sentences(s):
 if __name__ == "__main__":
     # sentences
     sents = sentences("First.  Second, still?  Third and Final!  Well, not really")
-    assert(len(sents) == 4)
+    sents = sentences(u"你好，你今年多大了？你是谁啊？")
+    print sents[0]
+    #assert(len(sents) == 4)

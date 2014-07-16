@@ -1,5 +1,5 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 
 def isChinese(c):
     # http://www.iteye.com/topic/558050
