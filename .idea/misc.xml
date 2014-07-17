@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.5 (C:/Python27/python.exe)" project-jdk-type="Python SDK" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
@@ -18,5 +19,8 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.6 (C:/Python27/python.exe)" project-jdk-type="Python SDK" />
+>>>>>>> origin/master
 </project>
 
