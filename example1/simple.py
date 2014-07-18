@@ -29,4 +29,8 @@ while True:
 =======
     print k.respond("你好")
     line = raw_input()
+<<<<<<< HEAD
+    k.respond(line)
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
