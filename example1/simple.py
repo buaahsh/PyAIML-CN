@@ -25,3 +25,4 @@ k.respond("load aiml cn")
 while True:
     print k.respond("你好")
     line = raw_input()
+    k.respond(line)
