@@ -1,3 +1,6 @@
+# -*- coding:utf -*-
+
+
 from xml.sax.handler import ContentHandler
 from xml.sax.xmlreader import Locator
 import sys
