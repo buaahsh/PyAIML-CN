@@ -35,6 +35,6 @@ def sentences(s):
 if __name__ == "__main__":
     # sentences
     sents = sentences("First.  Second, still?  Third and Final!  Well, not really")
-    sents = sentences(u"你好，你今年多大了？你是谁啊？")
+    sents = sentences(u"你好，你今年*多大了？你是谁啊？")
     print sents[0]
     #assert(len(sents) == 4)

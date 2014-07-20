@@ -23,14 +23,7 @@ k.respond("load aiml cn")
 # # Loop forever, reading user input from the command
 # # line and printing responses.
 while True:
-<<<<<<< HEAD
-    line = raw_input()
-    print k.respond(line)
-=======
     print k.respond("你好")
     line = raw_input()
-<<<<<<< HEAD
+
     k.respond(line)
-=======
->>>>>>> origin/master
->>>>>>> origin/master
