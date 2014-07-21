@@ -25,7 +25,7 @@ def queryLocation(term):
     temp = data["results"][0]["temperature"]
     weather = data["results"][0]["weather"]
     date = data["results"][0]["date"]
-    print date + " " + temp + " " + weather
+    # print date + " " + temp + " " + weather
     return date + " " + temp + " " + weather
     # for d in data["i"]:
     #     code = d['i']

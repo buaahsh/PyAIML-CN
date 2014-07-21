@@ -23,4 +23,7 @@ k.respond("load aiml cnask")
 
 # Loop forever, reading user input from the command
 # line and printing responses.
-while True: print k.respond(raw_input("> "))
+print k.respond("北京的天气")
+while True: 
+    query = raw_input()
+    print k.respond(query)
